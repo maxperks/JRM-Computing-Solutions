@@ -92,7 +92,7 @@ margin: .8em 30% .8em;
     color:                  #ffffff /*{global-active-color}*/;
     cursor: pointer;
     text-decoration: none;
-  font-family: Lato, sans-serif
+	font-family: Lato, sans-serif
 }
 
 
@@ -111,4 +111,40 @@ margin: .8em 30% .8em;
 
 .ui-menu .ui-icon-arrow-r {
     background-color: black !important;
+}
+
+#name-table {
+	width: 100%;
+	cell-padding: 0px;
+	cell-spacing: 5%;
+	border: 0px;
+}
+
+.names {
+	width: 100%;
+}
+
+#hole-score-table {
+	width: 100%;
+	margin-top: 1px;
+	cell-padding: 0px;
+	cell-spacing: 0px;
+	border: 0px;
+}
+
+#icon-prev {
+	margin-left:auto;
+	margin-right:auto;
+}
+#icon-info {
+	margin-left:auto;
+	margin-right:auto;
+}
+#icon-scores {
+	margin-left:auto;
+	margin-right:auto;
+}
+#icon-next {
+	margin-left:auto;
+	margin-right:auto;
 }
