@@ -147,6 +147,8 @@ a.ui-btn, .ui-btn.ui-btn-b, .ui-btn.ui-btn-a {
 .container {
     width: 80%;
     margin: 0 auto;
+}
+#homePage, #setupPage {
     height: 100vh;
     overflow: hidden;
 }
@@ -155,8 +157,23 @@ a.ui-btn, .ui-btn.ui-btn-b, .ui-btn.ui-btn-a {
     clear: both;
 }
 
-/* BUTTONS */
+.ui-header {
+    padding-top: 0.5em;
+    font-family: Damion, cursive;
+    text-align: center;
+    font-size: 3em;
+    font-weight: normal;
+}
 
+/* text */
+
+h6 {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 1em;
+    text-align: center;
+    margin: 1em 0;
+}
 
 
 

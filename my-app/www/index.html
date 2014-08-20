@@ -36,12 +36,28 @@
     </head>
     <body>
         
-        <div class="container">
-            <img src="img/logo.png" alt="" id="homeLogo" />
+        <div id="homePage" data-role="page">
+            <div class="container">
+                <img src="img/logo.png" alt="" id="homeLogo" />
             
-            <a data-role="button" data-icon="carat-r" data-theme="a">Play Putt Putt!</a>
-            <a data-role="button" data-icon="bullets" data-theme="b">Leaderboards</a>
-            <a data-role="button" data-icon="gear" data-theme="c">Settings</a>
+                <a data-role="button" data-icon="carat-r" data-theme="a" href="#setupPage">Play Putt Putt!</a>
+                <a data-role="button" data-icon="bullets" data-theme="b">Leaderboards</a>
+                <a data-role="button" data-icon="gear" data-theme="c">Settings</a>
+            </div>
+        </div>
+        
+        <div id="setupPage" data-role="page">
+            
+            <div data-role="header">
+                Game Setup
+            </div>
+            
+            <div class="container">
+                <h6>Select A Course</h6>
+                <a data-role="button" data-icon="star" data-theme="a">Fun Run</a>
+                <a data-role="button" data-icon="star" data-theme="b">Jungle Trail</a>
+                <a data-role="button" data-icon="star" data-theme="d">Waterways Cove</a>
+            </div>
         </div>
         
         <script type="text/javascript" src="cordova.js"></script>
